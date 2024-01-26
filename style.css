@@ -1,0 +1,185 @@
+/*********************************************************************************************/
+/***********************               GENERAL SET                       *********************/
+/*********************************************************************************************/
+body {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(204, 204, 204);
+    /* margin: 0; */
+    --BCKCLR: rgb(204, 204, 204);
+}
+
+nav {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+
+}
+
+/*********************************************************************************************/
+/***********************               FIRST PAGE                       *********************/
+/**********************               CONTAINS: NONE                       ********************/
+/*********************************************************************************************/
+.intext {
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+h2 {
+    color: #333;
+}
+
+/*********************************************************************************************/
+/***********************               SECOND PAGE                       *********************/
+/**********************               CONTAINS: CP                       ********************/
+/*********************************************************************************************/
+.shareWithButton {
+    background-color: var(--BCKCLR);
+    border: none;
+}
+
+#toThird {
+    background-color: var(--BCKCLR);
+    color: var(--BCKCLR);
+    border: none;
+}
+
+#toThird:hover {
+    background-color: var(--BCKCLR);
+}
+
+.hiddenContent {
+    font-size: 14px;
+    color: red;
+    display: none;
+}
+
+.pfp {
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.hide {
+    display: none;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.image-container:hover {
+    cursor: none;
+}
+
+
+/*********************************************************************************************/
+/***********************               THIRD PAGE                       *********************/
+/**********************               CONTAINS: SCW                       ********************/
+/*********************************************************************************************/
+#treasure {
+    background-color: gold;
+    padding: 10px;
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+    /* Make the image fill the container */
+    cursor: pointer;
+    object-fit: cover;
+}
+
+#result {
+    font-size: 18px;
+}
+
+.margins {
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.overlay-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0);
+    color: rgba(0, 0, 0, 0);
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.overlay-button:hover {
+    background-color: rgba(0, 0, 0, 0);
+    cursor: none;
+}
+
+/*********************************************************************************************/
+/***********************               Forth PAGE                       *********************/
+/**********************               CONTAINS: EB                       ********************/
+/*********************************************************************************************/
+.wordPuzzle {
+    min-width: 700px;
+}
+
+#WPSPACER {
+    font-size: 30px;
+    color: var(--BCKCLR);
+}
+
+#WPSECRET {
+    font-size: 12px;
+    color: var(--BCKCLR);
+}
+
+#WPSECRET::selection {
+    font-size: 10px;
+    color: RED;
+    background-color: #5A68CB;
+}
+
+#answerBTN {
+    padding: 0px;
+    border: none;
+    background-color: var(--BCKCLR);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+#answerBTN:hover {
+    cursor: text;
+}
+
+#WPTEXT {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+/* Secret Codes */
+@media screen and (width:500px) {
+    .hiddenContent {
+        font-size: 14px;
+        color: red;
+        display: block;
+    }
+
+    .hide {
+        font-size: 14px;
+        color: red;
+        display: block;
+        padding-top: 500px;
+        padding-bottom: 20px;
+    }
+}
