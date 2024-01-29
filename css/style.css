@@ -168,7 +168,7 @@ h2 {
 }
 
 /* Secret Codes */
-@media screen and (width<=500px) {
+@media screen and (width<=600px) {
     .hiddenContent {
         font-size: 14px;
         color: red;
